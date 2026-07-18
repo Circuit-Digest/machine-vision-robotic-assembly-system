@@ -1,0 +1,20 @@
+{
+    "ip": "YOUR_ARM_IP",
+    "socket_port": 9000,
+    "coord_calibration": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "angle_calibration": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ]
+}
