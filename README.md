@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 MechArm 270 — Unified Robot Controller & Assembly Vision Dashboard
+# 🤖 Machine Vision-Based Robotic Assembly System Using MechArm 270 and Jetson Nano
 
 **A real-time computer-vision system that drives a 6-DOF robotic arm + linear rail to autonomously assemble two toy cars, verifying every part placement using black-pixel ROI detection on an on-board webcam.**
 
@@ -123,8 +123,8 @@ Camera → vision_thread → stable_detected_parts (dict)
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mecharm-vision-dashboard.git
-cd mecharm-vision-dashboard
+git clone https://github.com/YOUR_USERNAME/machine-vision-robotic-assembly-system.git
+cd machine-vision-robotic-assembly-system
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -233,7 +233,7 @@ On startup you will see:
 
 ```
 ======================================================================
-  Unified MechArm Assembly Dashboard -> http://localhost:5000
+  Robotic Assembly System (MechArm 270 & Jetson Nano) -> http://localhost:5000
   Robotic Arm + Stepper Linear Rail + Black-pixel ROI Vision Integrated.
 ======================================================================
 ```
@@ -483,7 +483,7 @@ When the PlaybackEngine reaches this waypoint it:
 ## 📁 Project Structure
 
 ```
-mecharm-vision-dashboard/
+machine-vision-robotic-assembly-system/
 │
 ├── main.py                    # Main Flask + SocketIO application (2,700+ lines)
 ├── config.py                  # Shared constants: IPs, HSV thresholds, station maps

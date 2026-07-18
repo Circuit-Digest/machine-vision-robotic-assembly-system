@@ -1,6 +1,6 @@
 """
-MechArm 270 — Unified Robot Controller & Assembly Vision Dashboard
-=================================================================
+Machine Vision-Based Robotic Assembly System Using MechArm 270 and Jetson Nano
+=============================================================================
 
 Combined single-process Flask + SocketIO server running on port 5000.
 Integrates:
@@ -2808,7 +2808,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     socketio.start_background_task(background_broadcast)
     print("=" * 70)
-    print("  Unified MechArm Assembly Dashboard -> http://localhost:5000")
+    print("  Robotic Assembly System (MechArm 270 & Jetson Nano) -> http://localhost:5000")
     print("  Robotic Arm + Stepper Linear Rail + Black-pixel ROI Vision Integrated.")
     print("=" * 70)
     socketio.run(app, host="0.0.0.0", port=5000, debug=False, allow_unsafe_werkzeug=True)
